@@ -1,0 +1,19 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr minmax(25%, 150px);
+  height: 100px;
+}
+
+main,
+aside {
+  padding: 12px;
+  text-align: center;
+}
+
+main {
+  background: #cc87ff;
+}
+
+aside {
+  background: #ff78cc;
+}
